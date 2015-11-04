@@ -1,0 +1,140 @@
+
+body {
+/*	background-color: #fcfcfc;
+*/	/*font-family: 'Quicksand', sans-serif;
+	font-family: 'Cantarell', sans-serif;*/
+/*	font-family: 'Ubuntu Condensed', sans-serif;
+*/	font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+	max-width: 1070px;
+/*	border: 1px solid red;
+*/}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+
+}
+
+.navbar-brand{
+	padding-left: 0px;
+}
+
+.navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ul.nav.navbar-nav li a {
+	padding-top: 4.5em;
+    color: white;
+    letter-spacing: 0.13em;
+}
+
+.pressed {
+}
+
+nav.navbar.navbar-default.container a.navbar-brand {
+   color: white;
+   letter-spacing: 0.13em;
+   font-size: 3em;
+   padding-top: 1.7em;
+}
+
+.logo {
+	margin-top: -30px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	color: white !Important;
+}
+
+.title {
+	height: 800px;
+	background-image: url(../img/whee.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.head {
+	margin-top: 275px;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+
+}
+
+.name {
+	font-size: 70px;
+	padding-top: -10px;
+	margin-top: -45px;
+	letter-spacing: 0.05em;
+}
+
+.position {
+	font-size: 20px;
+}
+
+.line {
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+
+.line {
+
+}
+
+.heading {
+	font-size: 50px;
+	color: black;
+	margin-top: 100px;
+	font-weight: 300;
+}
+
+.me {
+	margin-top: -20px;
+}
+
+
+.work {
+	margin-top: 4.2em;
+}
+
+.thumb img{
+    overflow: hidden;
+}
+
+.thumb img:hover {
+	opacity: 0.9;
+	text-decoration: none;
+}
+
+.thumb img:after {
+	text-decoration: none;
+}
+
+.work_row {
+	margin-top: 3em;
+}
+
+div.caption{
+	text-align: center;
+	padding-top: 1em;
+	color: #222222;
+	letter-spacing: 0.13em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:after {
+	text-decoration: none;
+}

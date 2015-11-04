@@ -1,0 +1,97 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(content="text/html; charset=UTF-8" http-equiv="Content-Type")/
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %title Andrea gupnp_device_info_get_service(root_device, type)
+    / Bootstrap
+    %link(href="css/bootstrap.min.css" rel="stylesheet")/
+    %link(href="css/style.css" rel="stylesheet")/
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    %link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Roboto+Condensed|Ubuntu+Condensed|Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css')/
+      %body
+    %div.title
+      %nav.navbar.navbar-default.container
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          / Collect the nav links, forms, and other content for toggling
+        // %a.navbar-brand(href="#")
+        //   %img.img-responsive.logo(src="img/logo.svg")
+        %div.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.pressed
+              %a(href="#")
+                PROJECTS
+            %li
+              %a(href="#") 
+                ABOUT
+      %div.head  
+        %p.name
+          ANDREA
+        %p.name
+          DENG
+        %img.line(src="img/line.svg")
+        %p.position
+          UX & UI DESIGNER
+
+    %div.container.about
+      %p.heading
+        ABOUT
+      %p.heading.me
+        ME
+      %img.line(src="img/line_black.svg")
+    %div.container.work
+      %div.row.work_row
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")
+            %div.caption
+              %p 
+                SKRT
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/icecream.png")
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/andrea.jpg")
+
+      %div.row.work_row
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")    
+  
+      %div.row.work_row
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")
+        %div.col-xs-8.col-md-4
+          %a.thumb(href="#")
+            %img.img-responsive(src="img/closeside.jpg")          
+
+   
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    / Include all compiled plugins (below), or include individual files as needed
+    %script(src="js/bootstrap.min.js")
