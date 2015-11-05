@@ -83,23 +83,21 @@ nav.navbar.navbar-default.container a.navbar-brand {
 	margin-bottom: -10px;
 }
 
-.line {
-
+.about {
+	color: #a7aab0;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 18px;
+	text-align: center;
 }
 
 .heading {
-	font-size: 50px;
+	font-size: 64px;
 	color: black;
-	margin-top: 100px;
-	font-weight: 300;
-	font-family: 'Lora';
+	text-align: center;
+	font-weight: 500;
 }
-
-.me {
-	margin-top: -20px;
-	font-family: Times;
-}
-
 
 .work {
 	margin-top: 4.2em;
@@ -139,4 +137,21 @@ a:hover {
 
 a:after {
 	text-decoration: none;
+}
+
+.workbutton {
+	background-color: black;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	width: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
 }
