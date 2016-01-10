@@ -30,11 +30,18 @@ body {
 
 ul.nav.navbar-nav li a {
 	padding-top: 4.5em;
-    color: white;
+/*     color: white; */
+    color: black;
     letter-spacing: 0.13em;
 }
 
+ul.nav.navbar-nav.home li a {
+	padding-top: 4.5em;
+	color: white !Important;
+    letter-spacing: 0.13em;
+}
 .pressed {
+
 }
 
 nav.navbar.navbar-default.container a.navbar-brand {
@@ -49,7 +56,7 @@ nav.navbar.navbar-default.container a.navbar-brand {
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-	color: #E6E6E6 !Important;
+/* 	color: #E6E6E6 !Important; */
 }
 
 .title {
@@ -117,15 +124,8 @@ nav.navbar.navbar-default.container a.navbar-brand {
 	text-decoration: none;
 }
 
-.work_row {
-	margin-top: 3em;
-}
-
-div.caption{
-	text-align: center;
-	padding-top: 1em;
-	color: #222222;
-	letter-spacing: 0.13em;
+.row {
+	margin-top: 1em;
 }
 
 a {
@@ -150,7 +150,7 @@ a:after {
 .picture {
 	position: relative;
 	z-index: 0;
-	transition: transform 0.4s;
+	transition: transform 0.5s;
 }
 
 .caption {
@@ -158,13 +158,14 @@ a:after {
 	width: 100%;
 	position: absolute;
 	z-index: 1;
-	transition: opacity 0.4s;
-	background-color: rgba(52, 152, 219, 0.4);
+	transition: opacity 0.5s;
+	background-color: rgba(0, 0, 0, 0.5);
 	/*background-color: rgba(255, 106, 106, 0.3);	*/
 /*	background-color: rgba(255, 255, 255, 0.3);
 *//*	background-color: rgba(240, 128, 128, 0.5);	*/
 	opacity: 0;
 	top:0;
+	text-align: center;
 }
 
 .wrapper:hover .caption{
@@ -172,18 +173,36 @@ a:after {
 }
 
 .wrapper:hover .picture{
-	transform: ;
+	transform: scale(1.1);
 }
 
 .caption_text {
-	font-size: 28px;
+	font-size: 40px;
 	color: white;
-	padding-top: 35%;
+ 	padding-top: 1%;
+ 	padding-bottom: 1%;
+ 	padding-left: ;
+ 	padding-right: ;
+ 	width: 10%;
+ 	margin-top: 5%;
+ 	margin-bottom: 5%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	padding-top: 27%;
 }
 
 .caption_sub {
-	font-size: 18px;
+	font-size: 40px;
 	color: white;
+	margin-top: 0;
+}
+
+.caption_sub_small {
+	font-size: 20px;
+	color: white;
+	margin-top: -1em;;
 }
 
 .work {
