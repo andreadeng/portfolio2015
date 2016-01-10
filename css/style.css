@@ -189,3 +189,68 @@ a:after {
 .work {
 	margin-top: 5%;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:after {
+	text-decoration: none;
+}
+
+
+/* Project Page */
+
+.cover-pic {
+	width: 100%;
+}
+.project-content {
+	margin-top: 2em;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.cover-pic {
+	margin-bottom: 2em;
+}
+
+.section {
+	width: 700px;
+	margin-top: 2em;
+}
+
+.section-title {
+	font-weight: 600;
+	margin-top: 2em;
+}
+
+.section-text {
+	margin-top: 1em;
+}
+
+.section-pic {
+	margin-top: 2em;
+	width: 100%;
+}
+
+.img-caption {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.proj-video {
+	margin-top: 2em;
+	width: 100%;
+}
+
+.caption-break {
+	margin-top: 0;
+}
+
+.section-last {
+	margin-bottom: 4em;
+}

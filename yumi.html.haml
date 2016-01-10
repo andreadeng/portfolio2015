@@ -1,0 +1,212 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(content="text/html; charset=UTF-8" http-equiv="Content-Type")/
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %title Yumi
+    / Bootstrap
+    %link(href="css/bootstrap.min.css" rel="stylesheet")/
+    %link(href="css/style.css" rel="stylesheet")/
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    %link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Roboto+Condensed|Ubuntu+Condensed|Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css')/
+    %body
+    %div.project-page
+      %nav.navbar.navbar-default.container
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          / Collect the nav links, forms, and other content for toggling
+        %a.navbar-brand(href="#")
+          %img.img-responsive.logo(src="img/logo.svg")
+        %div.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.pressed
+              %a(href="#")
+                PROJECTS
+            %li
+              %a(href="#") 
+                ADVENTURES
+            %li
+              %a(href="#") 
+                ABOUT
+
+      %img.img-responsive.cover-pic(src="img/yumi_cover2.jpg")
+        %div.container.project-content
+          %div.section-text
+            Read about the process
+            %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330")
+              here.
+          %div.section-text
+            SKRT is a critical design piece that fosters discussion about personal space, what it means for different cultures
+            and individuals and its definition as a physical or virtual space. This was a team class project in Critical Making at UC Berkeley (link ot class page) created in collaboration
+            with Andrew Fang, Brian C Ly, Sumer Mohammed, and Tessira Crawford. My main role was designing and building 
+            the overall skirt structure and individual pieces.
+            // became not only a statement about personal space but also about the tech space. SKRT
+            // brings out less known aspects of the tech bubble: fashion, art installation, 
+            // social experiment, and critical design to foster discussion about personal space, what it means for
+            // different cultures and individuals.
+          
+          %img.img-responsive.section-pic(src="img/skrt_team.jpg")
+          %div.img-caption
+            SKRT team at end of the year Critical Making project expo
+          %div.section-title
+            Problem
+          %div.section-text
+            People just don't talk about personal space. It is an invisible yet ubiquitous force that we understand 
+            as we observe a culture over time. For example, every time I take BART (Bay Area subway), I notice people
+            filling in every other seat, avoiding sitting right next to a stranger unless the subway is crowded.
+            In California, even sitting right next to someone you don't know seems like a violation of personal 
+            space when the BART is not crowded.
+          %div.section-text
+            The personal bubble concept is also attacked and exaggerated by different social expectations. 
+            For example, feminists argue that women are constantly interrupted by a man’s physical 
+            presence through the spreading of their legs ("manspreading"). This physical sign of 
+            dominance, whether intentional or not, forces the woman into a smaller space.
+            Others add that personal space is decreasing outwardly but increasing inwardly. Personal space exists 
+            internally because of the smartphone. These devices force users to not be aware of their 
+            context and only focus on matters occurring privately within the palm of their hands.
+          %img.img-responsive.section-pic(src="img/manspread.jpg")
+          %div.img-caption
+            Manspreading on public transit. Banned in NY as of January 2015.
+          
+          %div.section-title
+            Building the Final Iteration
+          %div.section-text
+            Read about our building process, multiple iterations, and electronics of the project
+            %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330")
+              here.
+          %div.section-text
+            The final prototype consists of a belt and five leaves
+            made of up of acryllic pieces. I designed each piece in Illustrator, laser cut them, and then sanded them 
+            for a frosted look that half shows and half hides the structure and electronics of SKRT.
+            I then heated each piece to bend them into the shape you see in the photos. My team and I
+            strung these pieces, along with
+            spacers, LED lights, fishing line, the electronics and wiring to create the final prototype.
+
+          %img.img-responsive.section-pic(src="img/skrt_model.png")
+          %div.img-caption
+            SKRT concept model
+
+          %img.img-responsive.section-pic(src="img/skrt_bending.jpg")
+          %div.img-caption
+            Glimpse of the heating and bending process
+
+          %div.section-title
+            Final Prototype
+          %div.section-text
+            Our intention is to neither attack nor exaggerate the personal bubble. Instead, we created a physical 
+            bubble that will not only define the wearer’s boundaries but also intrude into others’. 
+            Thus, we decided to create a skirt composed of 5 “leaves” that curl outwards towards any sign of movement, 
+            Using motors, sensors, carbon fiber, and lights, we created something that critiqued the personal bubble. 
+            We did not design this object to resolve an issue or to perpetuate one but to merely exist. And in its
+            existence encourages people to talk about it and personal space.
+
+          %div.section-text
+            Below are some photos of the final prototype of SKRT which show various details. Photo credits to our team 
+            member and amazing photographer Brian C Ly. 
+
+          %img.img-responsive.section-pic(src="img/skrt_final.jpg")
+          %div.img-caption
+            Final prototype of SKRT leaves the lab
+
+          %img.img-responsive.section-pic(src="img/skrt_leaves.jpg")
+          %div.img-caption
+            Closeup of the five "leaves" and belt
+          
+          %img.img-responsive.section-pic(src="img/skrt_closeup.jpg")
+          %div.img-caption
+            Servo motor that pulls the fishing line up to make each leaf "curl"
+
+          %img.img-responsive.section-pic(src="img/skrt_frosted.jpg")
+          %div.img-caption
+            Detail of each beautifully frosted clear acryllic piece
+
+          <iframe class="proj-video" width="655" height="374" src="https://www.youtube.com/embed/u0KeIOgSp5M" frameborder="0" allowfullscreen></iframe>
+          %div.img-caption
+            Final prototype promo video
+
+          %div.section-title
+            Featured 
+          %div.section-text
+            I had the honor of representing my team in presenting SKRT at Bay Area Maker Faire in San Mateo, CA (May 2015) and National Maker Faire 
+            in Washington D.C. (June 2015). SKRT was awarded 
+            %a(target="_blank" href="http://bcnm.berkeley.edu/2015/06/09/editors-choice-awards-at-bay-area-maker-faire/")
+              Editor's Choice at the Bay Area Maker Faire.
+            and featured in the local Washington D.C.
+            %a(target="_blank" href="https://twitter.com/bjo3rn/status/609422287197073408")
+              news, gray.tv.
+
+          %div.section-text
+            Check out photos of SKRT unveiled to the public!
+         
+          %img.img-responsive.section-pic(src="img/skrt_sumer.jpg")
+          %div.img-caption
+            Team member Sumer rocks SKRT at Critical Making class expo
+
+          %img.img-responsive.section-pic(src="img/skrt_gray.jpg")
+          %div.img-caption
+            Gray.tv reporter tries on SKRT and interviews me about the SKRT story at National Maker Faire
+
+          %img.img-responsive.section-pic(src="img/skrt_talking.jpg")
+          %div.img-caption
+            People are super intrigued! Here you can see the batteries and circuit board I have in the back
+
+          %img.img-responsive.section-pic(src="img/skrt_maker.jpg")
+          %div.img-caption
+            Demoing SKRT to curious passerbys at National Maker Faire
+
+          %img.img-responsive.section-pic(src="img/skrt_tatoo.jpg")
+          %div.img-caption
+            With other UC Berkeley project Skintillates (LED light up tatoos) at National Maker Faire
+
+          %img.img-responsive.section-pic(src="img/skrt_shorts.jpg")
+          %div.img-caption
+            National Maker Faire photographer Kevin Jarrett takes a shot of SKRT
+
+          <iframe class="proj-video" src="https://player.vimeo.com/video/148595068" width="500" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          %div.img-caption
+            News video on Fashion Tech featuring SKRT produced by Atia Musazay
+          %div.img-caption.caption-break
+            graduate student at UC Berkeley School of Journalism
+
+          %div.section-title
+            Lessons Learned 
+          %div.section-text
+            I learned a lot about digital prototyping through SKRT as well as the Critical Making class.
+            I had no experience with circuitry, laser cutting, 3D modeling before the class but through 
+            these projects gained valuable hands-on experience with these tools. Applying the
+            design process to a relatively new realm of digital-physical products such as the wearable, SKRT,
+            gave me new perspectives through both the medium and team I worked with. This project enabled me 
+            to really think outside of the box, to think beyond what "wearables" meant, to be creative, to collaborate,
+            and to tell a story with something physical and moving, a skirt that seemed almost alive. I worked through the design process and building of a product in depth, from ideation to more than five 
+            iterations, to a high fidelity
+            prototype. 
+          %div.section-text
+            SKRT gives me a fresh view at purely digital interfaces like the smartphone apps and websites I
+            often design. Thank you to my amazing team. We started off rocky coming from
+            very different backgrounds of Electrical Engineering, Computer Science, Business, Architecture, and myself,
+            Cognitive Science, but we learned to balance technical aspects and human factors.
+            Special thanks to my instructor Eric Paulos and lab manager Chris Myers for opening my eyes to technologies
+            I am beginning to imagine.
+          %div.section-text.section-last
+            Read about the process
+            %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330")
+              here.
+   
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    / Include all compiled plugins (below), or include individual files as needed
+    %script(src="js/bootstrap.min.js")
