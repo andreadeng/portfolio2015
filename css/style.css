@@ -251,6 +251,7 @@ a:after {
 .section-title {
 	font-weight: 600;
 	margin-top: 2em;
+	font-size: 18px;
 }
 
 .section-text {
@@ -288,14 +289,21 @@ a:after {
 	margin-left: 16.5%;
 }
 
+/* Work */
+
+.last-row {
+	margin-bottom: 4em;
+}
+
+/* Marvel */
+
 .marvel {
 	margin-top: 2em;
 	margin-left: 12%;
 	margin-bottom: 2em;
 }
 
-/* Work */
-
-.last-row {
-	margin-bottom: 4em;
+.marvel-iphone {
+	margin-left: 25%;
+	margin-top: 2em;
 }
