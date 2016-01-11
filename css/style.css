@@ -173,7 +173,7 @@ a:after {
 }
 
 .wrapper:hover .picture{
-	transform: scale(1.1);
+/* 	transform: scale(1.1); */
 }
 
 .caption_text {
@@ -271,5 +271,25 @@ a:after {
 }
 
 .section-last {
+	margin-bottom: 4em;
+}
+
+
+/* Binder */
+
+.binder-pic {
+	width: 450px;
+	margin-left: 16.5%;
+}
+
+.marvel {
+	margin-top: 2em;
+	margin-left: 12%;
+	margin-bottom: 2em;
+}
+
+/* Work */
+
+.last-row {
 	margin-bottom: 4em;
 }
