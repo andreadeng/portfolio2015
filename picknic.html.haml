@@ -6,7 +6,7 @@
     %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
     %meta(content="width=device-width, initial-scale=1" name="viewport")/
     / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-    %title Classlink Process
+    %title Yumi
     / Bootstrap
     %link(href="css/bootstrap.min.css" rel="stylesheet")/
     %link(href="css/style.css" rel="stylesheet")/
@@ -20,9 +20,9 @@
     %link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css')/
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic,100,100italic' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="favicon.png" />
-
-    %body
     
+    %body
+
     %body
     %div.project-page
       %nav.navbar.navbar-default.container
@@ -47,44 +47,63 @@
             %li
               %a(href="about.html") 
                 ABOUT
-      %img.img-responsive.cover-pic(src="img/classlink_process-cover.jpg")
+
+      %img.img-responsive.cover-pic(src="img/yumi_cover.jpg")
         %div.container.project-content
-
           %div.section-text
-            Go to the Classlink features page
-            %a(href="classlink.html")
+            Read about the process
+            %a(target="_blank" href="https://docs.google.com/presentation/d/1np9zZiP93qSUntKyGZ_fjKw4KFCENBR-arL3u4LRfOQ/edit?usp=sharing")
               here.
-
+          // %div.section-title
+          //   YUMI Team
+          // %img.img-responsive.section-pic(src="img/yumi_team.png")
+          %div.section-title
+            YUMI Mobile App
           %div.section-text
-            
+            Helps you find someone to eat with near you, instantaneously.
+          %img.img-responsive.section-pic(src="img/eat_together.jpg")
+          %div.img-caption
+            Eat together, eat better, be happier
+          %div.section-title
+            Features
+
+          %div.section-title
+            Streamlined Process
+          %div.section-text
+            Quickly find someone to eat with
+          <iframe class="marvel-iphone" src="https://marvelapp.com/17af897?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
           
           %div.section-title
-            Problem
+            Customizable 
           %div.section-text
-            Sign in page for parents to access their student's information through Classlink
+            Customize the max distance you can travel for a meal, add languages you speak, and add preferred friends or
+            groups that rank higher when YUMI searches a platemate for you. Edit your profile to reflect the foods you love
+            and your interests!
+          <iframe class="marvel-iphone" src="https://marvelapp.com/17afhh0?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
           
           %div.section-title
-            Some of the Sketches
-          %img.img-responsive.section-pic(src="img/class_1.jpg")
-          %img.img-responsive.section-pic(src="img/class_2.jpg")
-          %img.img-responsive.section-pic(src="img/class_4.jpg")
-          %img.img-responsive.section-pic(src="img/class_5.jpg")
+            Future Plans
+          %div.section-text
+            We pitched YUMI to a panel of VC's at the end of the Fall 2015 semester and 
+            we're well received. We are currently in the process
+            of developing this app. We recently decided to gamify YUMI and are working on
+            enriching that experience as we test it out with uses. We are hoping to launch a
+            downloadable MVP by March 2016.
 
           %div.section-title
-            Low-Fidelity Mockups
+            Lessons Learned 
           %div.section-text
-            This version emphasizes that Yumi matches you with someone to eat with by location
-            However, when we showed users this app, some said it was confusing with a lot of
-            information on the screen and that it also resembled the Uber app. Some users
-            wondered why the map was necessary because they didn't needed to confirm an extact 
-            location. It was just taking up space. Max distance is also something that users wouldn't
-            change each time they used Yumi so in later iterations, it is placed in the "Settings".
-          %img.img-responsive.section-pic(src="img/classlinkv2-10.png")
-          %img.img-responsive.section-pic(src="img/classlinkv2-11.png")
-
+            I learned about the business side of product development and how the design process fits into
+            the overall product development process. I had to adapt the design of YUMI
+            to our business model. We planned to monetize with native ads within the app and a 
+            subscription model free of ads and unlocked features for subscribed users. Unlocked features included
+            more searches for a platemate, preferred friends list, and groups list. The challenge was 
+            add these benefits without compensating the core product of YUMI which was finding someone to eat with
+            instantaneously.
+      
           %div.section-text.section-last
-            Go to the Classlink features page
-            %a(href="classlink.html")
+            Read about the process
+            %a(href="yumi-process.html")
               here.
    
     / jQuery (necessary for Bootstrap's JavaScript plugins)

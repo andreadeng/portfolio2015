@@ -1,0 +1,168 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(content="text/html; charset=UTF-8" http-equiv="Content-Type")/
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %title Yumi Process
+    / Bootstrap
+    %link(href="css/bootstrap.min.css" rel="stylesheet")/
+    %link(href="css/style.css" rel="stylesheet")/
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    %link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Roboto+Condensed|Ubuntu+Condensed|Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css')/
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic,100,100italic' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    
+    %body
+    
+    %body
+    %div.project-page
+      %nav.navbar.navbar-default.container
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          / Collect the nav links, forms, and other content for toggling
+        %a.navbar-brand(href="index.html")
+          %img.img-responsive.logo(src="img/logo.svg")
+        %div.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.pressed
+              %a(href="index.html")
+                PROJECTS
+            %li
+              %a(href="#") 
+                ADVENTURES
+            %li
+              %a(href="about.html") 
+                ABOUT
+      %img.img-responsive.cover-pic(src="img/yumi_process-cover.jpg")
+        %div.container.project-content
+
+          %div.section-text
+            Go to the Yumi features page
+            %a(href="yumi.html")
+              here.
+
+          %div.section-text
+            My team and I created YUMI as part of the Technology Entrepreneurship course at UC Berkeley. Team members 
+            include Aaron Zhang, Alex Qian, Eric Chang, and myself.
+            The course  introduces key entrepreneurial concepts relevant to the high-technology 
+            world and how to take ideas to real products. Topics include the entrepreneurial process, 
+            customer discovery process, conducting market research, funding options, entrepreneurial finance 
+            and creation of the material for a business plan. As the UX/UI designer on the team and a strong 
+            believer in using the design process, I steered our product development process to heavily rely on 
+            user research and other design principles.
+          
+          %div.section-title
+            Problem
+          %div.section-text
+            No easy way exists to find someone to eat with. You don’t know people’s 
+            availabilities. It's inconvenient to individually message people.
+            and awkward to ask strangers.
+   
+          %div.section-title
+            Market Research
+          %div.section-text
+            We were required to do extensive market research for the course to verify business insight 
+            early one and at each stage. Our market research focused on large sample sizes and on what 
+            people say and will buy, giving us board insight. We surveyed over 200 people and 80% of college 
+            students said they would try out an app that instantaneously matched you with someone to eat with. 
+            78% of working professionals under 30 said they would try it out. Our market research also 
+            indicated that those 30+ would not use this app. With the target market of college students 
+            and young professionals identified, we focused on creating an experience tailored to their 
+            lifestyles and needs.
+          
+          %div.section-title
+            User Research 
+          %div.section-text
+            While market research tells us what people will buy, validating our product, it is 
+            less helpful in terms of product development. This is where my user research experience came in. User 
+            research allowed us to understand what people do, how people use a product, and focused on smaller 
+            sample sizes but resulted in deep focused insight. Each person on the team sat down with 5 
+            people within our target market and engaged in hour long interviews.
+
+          %div.section-title
+            Insightful Conversations
+          %div.section-text
+            Two people I talked to that really expanded my perspective on this problem and what they need.
+          %div.section-title
+            Key Insights
+          %div.section-text
+            We took our findings from both our surveys and interviews and analyzed 
+            trends and key insights of what people said and did.
+          %div.section-text
+            %ul 
+              %li 
+                Over 80% of the people we surveyed or interviewed considered eating 
+                to be an inherently social activity. A majority of those people would 
+                prefer to eat with someone, even a stranger, than alone most of the time. 
+              %li
+                Common reasons why people eat alone are they don’t know other 
+                people’s availabilities and their own, it’s inconvenient and time-intensive 
+                to individually message people to ask if they want to eat, and it’s awkward 
+                to ask strangers. 
+              %li
+                Most college students and some young professionals have inconsistent 
+                meal times, especially lunch. For students, this is due to varying class 
+                schedules and for young professionals, due to often finishing a given task 
+                before eating lunch.
+              %li
+                A lot of people only had approximately an hour break for lunch 
+                and thus finding someone to eat with was time-sensitive.
+              %li
+                For young professionals, most co-workers are older and have families 
+                but want to meet people their age in the workforce.
+              %li 
+                Many college students and young professionals alike are busy and constantly
+                bombarded with a myriad of apps and social media networks so they need
+                something that doesn’t add to the “noise” of technology is not intrusive
+                on their daily lives.
+          
+          %div.section-title
+            Some of the Sketches
+          %img.img-responsive.section-pic(src="img/yumi_sketch2.jpg")
+          %img.img-responsive.section-pic(src="img/yumi_sketch3.jpg")
+
+          %div.section-title
+            Early Version Low-Fidelity Mockups
+          %div.section-text
+            This version emphasizes that Yumi matches you with someone to eat with by location
+            However, when we showed users this app, some said it was confusing with a lot of
+            information on the screen and that it also resembled the Uber app. Some users
+            wondered why the map was necessary because they didn't needed to confirm an extact 
+            location. It was just taking up space. Max distance is also something that users wouldn't
+            change each time they used Yumi so in later iterations, it is placed in the "Settings".
+          %img.img-responsive.section-pic(src="img/yumi_v1-all.png")
+          
+          %div.section-title
+            Later Version Low-Fidelity Mockups 
+          %div.section-text
+            This is the stripped down version of Yumi to its core product: finding someone to eat with 
+            at a moments notice. We arrived at this version because the "Set Schedule" option was taking
+            away from Yumi's "instaneous experience". During testing of previous versions, people
+            rarely tapped the "Set Schedule" button even if they knew they wanted to eat later. People said 
+            they would simply open up Yumi later in the day when they wanted to eat with someone. The
+            "Set Schedule" had created more hassle than value.
+          %img.img-responsive.section-pic(src="img/yumi_v2-all.png")
+
+          %div.section-text.section-last
+            Go to the Yumi features page
+            %a(href="yumi.html")
+              here.
+   
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    / Include all compiled plugins (below), or include individual files as needed
+    %script(src="js/bootstrap.min.js")
