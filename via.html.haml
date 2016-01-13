@@ -1,0 +1,90 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(content="text/html; charset=UTF-8" http-equiv="Content-Type")/
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %title Via
+    / Bootstrap
+    %link(href="css/bootstrap.min.css" rel="stylesheet")/
+    %link(href="css/style.css" rel="stylesheet")/
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    %link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Roboto+Condensed|Ubuntu+Condensed|Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css')/
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic,100,100italic' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    %body
+
+    %body
+    %div.project-page
+      %nav.navbar.navbar-default.container
+        / Brand and toggle get grouped for better mobile display
+        .navbar-header
+          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          / Collect the nav links, forms, and other content for toggling
+        %a.navbar-brand(href="index.html")
+          %img.img-responsive.logo(src="img/logo.svg")
+        %div.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.pressed
+              %a(href="index.html")
+                PROJECTS
+            %li
+              %a(href="#") 
+                ADVENTURES
+            %li
+              %a(href="about.html") 
+                ABOUT
+
+      %img.img-responsive.cover-pic(src="img/via_cover.jpg")
+        %div.container.project-content
+          %div.section-title
+            VIA Marketing Material
+          %div.section-text
+            Some flier and infographic designs I did for my Summer 2014 internship at Stanford University's VIA XSEL.
+            VIA stands for Volunteers in Asia and XSEL stands for Exchange for Social Entrepreneurs
+            and Leaders. I was a design coordinator for the 3 week program where mostly college students 
+            and some young professionals from all over Asia stayed in the dorms and 
+            learned about design thinking and applied that to creating a social enterprise
+            final team project. They identified a social problem and worked in groups to solve it and 
+            present it.
+          
+          %img.img-responsive.section-pic(src="img/via_pic.jpg")
+          %div.img-caption
+            XSEL staff and participants act out their favorite memories from the program
+          %div.section-title
+            Overview of Summer 2014 Participants
+          %img.img-responsive.section-pic(src="img/via0.jpg")
+          
+          %div.section-title
+            Flier for Design Thinking Workshop
+          %img.img-responsive.section-pic(src="img/via1.jpg")
+          
+          %div.section-title
+            Program Schedule
+          %img.img-responsive.section-pic(src="img/via2.jpg")
+
+          %div.section-title
+            VIA Program Booklet
+          %div.section-text.section-last
+            I also designed the layout and content for the 
+            %a(href="img/viabooklet.pdf")
+              program booklet.
+
+   
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    / Include all compiled plugins (below), or include individual files as needed
+    %script(src="js/bootstrap.min.js")
