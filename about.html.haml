@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     
     %body
-    %div.title
+    %div
       %nav.navbar.navbar-default.container
         / Brand and toggle get grouped for better mobile display
         .navbar-header
@@ -37,65 +37,28 @@
         %div.collapse.navbar-collapse
           %ul.nav.navbar-nav.navbar-right
             %li.pressed
-              %a(href="#")
+              %a(href="projects.html")
                 PROJECTS
             %li
-              %a(href="#") 
-                ABOUT
+              %a(href="http://helloandi.tumblr.com/") 
+                BLOG
             %li
-              %a(href="#") 
+              %a(href="about.html") 
                 ABOUT
-      %div.head  
-        %p.name
-          ANDREA
-        %p.name
-          DENG
-        %img.line(src="img/line.svg")
-        %p.position
-          UX & UI DESIGNER
+        
+        // %img.img-responsive.section-pic.andrea-cartoon(src="img/andrea.jpg")
+        %div.container.work
+          %img.img-responsive.section-pic(src="img/andrea2.jpg")
+          %div.section-title
+            ABOUT ME
+          %div.section-text
+            See my Resume.
+          %div.section-title
+            Alphabet of Me
 
-    // %div.container.about
-    //   %p.heading
-    //     About Me
-    //   %p.heading.me
-    //     About Me
-    //   %img.line(src="img/line_black.svg")
-    %div.container.work
-      %div.row.work_row
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")
-            %div.caption
-              %p 
-                SKRT
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/icecream.png")
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/andrea.jpg")
+        
 
-      %div.row.work_row
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")    
-  
-      %div.row.work_row
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="#")
-            %img.img-responsive(src="img/closeside.jpg")          
+         
 
    
     / jQuery (necessary for Bootstrap's JavaScript plugins)

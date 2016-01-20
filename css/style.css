@@ -314,3 +314,15 @@ a:after {
 	margin-left: 22%;
 	margin-top: 2em;
 }
+
+/* About */
+
+.andrea-cartoon {
+	width: 25em;
+	display: inline;
+}
+
+.andrea {
+	width: 45em;
+	display: inline;
+}
