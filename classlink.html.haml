@@ -22,119 +22,167 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     %body
-
-    %body
-    %div.project-page
-      %nav.navbar.navbar-default.container
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          / Collect the nav links, forms, and other content for toggling
-        %a.navbar-brand(href="index.html")
-          %img.img-responsive.logo(src="img/logo.svg")
-        %div.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li.pressed
-              %a(href="projects.html")
-                PROJECTS
-            %li
-              %a(href="http://helloandi.tumblr.com/") 
-                BLOG
-            %li
-              %a(href="about.html") 
-                ABOUT
-
-      %img.img-responsive.cover-pic(src="img/classlink_cover.jpg")
-        %div.container.project-content
-          %div.section-text
-            // Read about the process
-            // %a(href="classlink-process.html")
-            //   here.
-          %div.section-title
-            Classlink Parent's Sign in Screen
-          %div.section-text
-            Log in to access all of your student's information. I entered this design to a 99designs.com contest and
-            was a 
-            %a(target="_blank" href="https://99designs.com/web-design/contests/login-self-registration-page-design-parents-577649/entries/178")
-              finalist for the contest.
+      %div.project-page
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+        %div.container
+          %div.row
+            %div.col-xs-12.col-md-6
+              %div.heading
+                CLASSLINK
+              %img.line(src="img/line_black.svg")
+              %div.subhead.black-text
+                School Network
+              %div.section-text.work-overview.black-text
+                Log in page for parents to access all of your student's information.
+            %div.col-xs-12.col-md-6.work-link.work-overview
+              %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+                %div.section-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right    
+          %img.img-responsive.work-pic(src="img/classlink_cover.jpg")
           
-          %img.img-responsive.section-pic(src="img/classlink_final.png")
-          %div.section-title
-            Features
+          %div.project-content.container
+            
+            %div.section-text
+              Log in to access all of your student's information. I entered this design to a 99designs.com contest and
+              was a 
+              %a(target="_blank" href="https://99designs.com/web-design/contests/login-self-registration-page-design-parents-577649/entries/178")
+                finalist for the contest.
+            
+            %img.img-responsive.section-pic(src="img/classlink_final.png")
+            %div.section-subtitle
+              Features
 
-          %div.section-title
-            Main Element: Sign in Form
-          %div.section-text
-            The sign in form is the main focus of this page and thus placed at the center 
-            of the page with big text and framed by the illustration. The sign in form is clear and compact, 
-            with a heading that demonstrates what signing in will allow a parent to do as well as an
-            accompanying illustration. 
-            The logical organization of input boxes leads to a very clear "Sign in" button. 
-            Subordinate functions such as "Create an Account" and "Forgot password" are 
-            placed in a visible location that is non-obtrusive from the main flow of the form.
+            %div.section-title
+              Main Element: Sign in Form
+            %div.section-text
+              The sign in form is the main focus of this page and thus placed at the center 
+              of the page with big text and framed by the illustration. The sign in form is clear and compact, 
+              with a heading that demonstrates what signing in will allow a parent to do as well as an
+              accompanying illustration. 
+              The logical organization of input boxes leads to a very clear "Sign in" button. 
+              Subordinate functions such as "Create an Account" and "Forgot password" are 
+              placed in a visible location that is non-obtrusive from the main flow of the form.
 
-          %div.section-title
-            Line-art Illustration
-          %div.section-text
-            I choose to create a simple, landscape illustration with line art to give it a friendly and not flashy look. I wanted to avoid a clipart-esque look for this education
-            website as a lot of education websites often resort to clipart that doesn't add visual
-            value. I did not color in my illustration so that it would not be distracting for this page. Focusing on just the lines also creates 
-            a clean "drawing" look. I added additional delight and function to the illustration with a paper airplane. 
-            The paper airplane flows from the “email” input to the “Sign In” button and shows that once a parent signs in, he or she will be connected to 
-            all of your child's educational resources.
-          
-          %div.section-title
-            Organized Footer
-          %div.section-text
-            I designed a dark gray footer that 
-            provides a nice contrast to the illustration without distracting from it. The Classlink logo is 
-            visibly and balancely placed on the left while basic links to other pages on the website are organized in columns in 
-            the middle section of the footer.
-            The “connect with us” social media icons on the rights side balance out the text heavy footer. 
-            Social media is really important in spreading the word for the brand and gaining feedback. 
-            Placing it on the far right of the footer makes it easier for users to connect with Classlink.
-            With these three sections, links don't feel cluttered and are easy to find.
+            %div.section-title
+              Line-art Illustration
+            %div.section-text
+              I choose to create a simple, landscape illustration with line art to give it a friendly and not flashy look. I wanted to avoid a clipart-esque look for this education
+              website as a lot of education websites often resort to clipart that doesn't add visual
+              value. I did not color in my illustration so that it would not be distracting for this page. Focusing on just the lines also creates 
+              a clean "drawing" look. I added additional delight and function to the illustration with a paper airplane. 
+              The paper airplane flows from the “email” input to the “Sign In” button and shows that once a parent signs in, he or she will be connected to 
+              all of your child's educational resources.
+            
+            %div.section-title
+              Organized Footer
+            %div.section-text
+              I designed a dark gray footer that 
+              provides a nice contrast to the illustration without distracting from it. The Classlink logo is 
+              visibly and balancely placed on the left while basic links to other pages on the website are organized in columns in 
+              the middle section of the footer.
+              The “connect with us” social media icons on the rights side balance out the text heavy footer. 
+              Social media is really important in spreading the word for the brand and gaining feedback. 
+              Placing it on the far right of the footer makes it easier for users to connect with Classlink.
+              With these three sections, links don't feel cluttered and are easy to find.
 
-          %div.section-title
-            Problem
-          %div.section-text
-            Create a sign in page for parents to access their student's information and education resources through Classlink
+            %div.section-subtitle
+              Problem
+            %div.recognition
+              Create a sign in page for parents to access their student's information and education resources through Classlink
 
-          %div.section-title
-            Some of the Sketches
-          %img.img-responsive.section-pic(src="img/class_1.jpg")
-          %img.img-responsive.section-pic(src="img/class_2.jpg")
-          %img.img-responsive.section-pic(src="img/class_4.jpg")
-          %img.img-responsive.section-pic(src="img/class_5.jpg")
+            %div.section-title
+              Sketches
+            %img.img-responsive.section-pic(src="img/class_1.jpg")
+            %img.img-responsive.section-pic(src="img/class_2.jpg")
+            %img.img-responsive.section-pic(src="img/class_4.jpg")
+            %img.img-responsive.section-pic(src="img/class_5.jpg")
 
-          %div.section-title
-            Low-Fidelity Mockups
-          %img.img-responsive.section-pic(src="img/classlinkv2-10.png")
-          %img.img-responsive.section-pic(src="img/classlinkv2-11.png")
+            %div.section-title
+              Low-Fidelity Mockups
+            %img.img-responsive.section-pic(src="img/classlinkv2-10.png")
+            %img.img-responsive.section-pic(src="img/classlinkv2-11.png")
 
-          %div.section-title
-            Lessons Learned 
-          %div.section-text
-            I learned about line art! Before this, I had only created flat illustrations focusing
-            on a limited color palette and long shadows. It was fun and challenging to depict 
-            recognization elements with just lines and forced me to visual how a school or neighborhood
-            looked like from another perspective.
-          %div.section-text
-            It was also different designing one web page rather than designing an entire website. Design one web
-            page allowed me to really focus on just that page. It put myself into the user's shoes 
-            to figure out how a user would get to that page and leave
-            that page. I was forced to create a comprehensive experience for a single page, a skill I will use
-            to break down designing entire websites.
+            %div.section-subtitle
+              Lessons Learned 
+            %div.recognition
+              I learned about line art! Before this, I had only created flat illustrations focusing
+              on a limited color palette and long shadows. It was fun and challenging to depict 
+              recognization elements with just lines and forced me to visual how a school or neighborhood
+              looked like from another perspective.
+            %div.section-text
+              It was also different designing one web page rather than designing an entire website. Design one web
+              page allowed me to really focus on just that page. It put myself into the user's shoes 
+              to figure out how a user would get to that page and leave
+              that page. I was forced to create a comprehensive experience for a single page, a skill I will use
+              to break down designing entire websites.
 
-          %div.section-text.section-last
-            // Read about the process
-            // %a(href="classlink-process.html")
-            //   here.
-   
+            %div.section-text.section-last
+              // Read about the process
+              // %a(href="classlink-process.html")
+              //   here.
+            %div.recognition.section-last
+              // See process
+              // %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330")
+              //   here.
+
+              %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+                %div.section-text.link-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+     
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     / Include all compiled plugins (below), or include individual files as needed

@@ -22,133 +22,172 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     
     %body
-    
-    %body
-    %div.project-page
-      %nav.navbar.navbar-default.container
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          / Collect the nav links, forms, and other content for toggling
-        %a.navbar-brand(href="index.html")
-          %img.img-responsive.logo(src="img/logo.svg")
-        %div.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li.pressed
-              %a(href="projects.html")
-                PROJECTS
-            %li
-              %a(href="http://helloandi.tumblr.com/") 
-                BLOG
-            %li
-              %a(href="about.html") 
-                ABOUT
+      %div.project-page
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+        %div.container
+          %div.row
+            %div.col-xs-12.col-md-6
+              %div.heading
+                BINDER
+              %img.line(src="img/line_black.svg")
+              %div.subhead.black-text
+                Augmented Note-taking
+              %div.section-text.work-overview.black-text
+                Binder is an augmented note-taking app for a live event. It enables real-time media capture, 
+                note customization, and event-specific generated content. Binder helps users organize
+                the information and data they want to keep from each event in a digestible and shareable format.
+            %div.col-xs-12.col-md-6.work-link.work-overview
+              %a(target="_blank" href="https://www.behance.net/gallery/13336431/Binder-A-Second-Screen-Tablet-Application") 
+                %div.section-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right    
+          %img.img-responsive.work-pic(src="img/binder_promo.jpg")
 
-      %img.img-responsive.cover-pic(src="img/binder_cover.jpg")
-        %div.container.project-content
-          %div.section-text
-            Read about the process
-            %a(target="_blank" href="https://www.behance.net/gallery/13336431/Binder-A-Second-Screen-Tablet-Application")
-              here.
-          %div.section-text
-            Read the Vertigo
-            %a(target="_blank" href="http://thewire.vertigo.com/2013/congrats-to-our-team-vertigo-and-uc-berkeley-innovation-group/")
-              article
-            about the project.
-          %div.section-text
-            Binder is a Fall 2013 team project within Berkeley Innovation, UC Berkeley's human-centered 
-            design organization, to create Binder. Team members include Vandana Pai, Shefali Netke,
-            Jason Gee, and myself. We had the opportunity to work with design consulting firm,  
-            Vertigo Software, Inc., to create a modern second-screen tablet application. 
-            Throughout our process, we focused on user research, multiple iterations 
-            of wireframes and prototypes, and concept generation. 
-    
-          %img.img-responsive.section-pic(src="img/binder_team.jpg")
-          %div.img-caption
-            Binder team with Tony Sokolowski, VP of Design at Vertigo, who worked with us throughout the project
-          
-          %div.section-title
-            Problem
-          %div.section-text
-            To start, Tony gave us a general prompt of creating a second screen mobile media app.
-            We refined this problem through user research and
-            found that a lot of people didn't want to be bothered when watching TV. 
-            We thought, when would a second screen full of information and data 
-            add to the overall experience? That's when we looked in conferences and lectures.
-          %div.section-text
-            We interviewed more people and many really enjoyed attending conferences but felt 
-            overwhelmed by the vast number of people and information thrown at them.
-            It was hard to keep track of the people they met and take notes on key points 
-            they encountered. The ipad app we designed, Binder, solves this problem.
+          %div.project-content
+            %div.section-text
+              Our team was given the prompt of creating a second screen mobile media app.
+              We refined this problem through user research and
+              found that a lot of people didn't want to be bothered when watching TV. 
+              We thought, when would a second screen full of information and data 
+              add to the overall experience? That's when we looked in conferences and lectures.
+            %div.section-text
+              We interviewed more people and many really enjoyed attending conferences but felt 
+              overwhelmed by the vast number of people and information thrown at them.
+              It was hard to keep track of the people they met and take notes on key points 
+              they encountered. The ipad app we designed, Binder, solves this problem.
 
-          %img.img-responsive.section-pic(src="img/launch.jpg")
-          %div.img-caption
-            Crowded Launch Festival conference in San Francisco
-          
-          %div.section-title
-            Features
-          %div.section-text
-            Conferences can use Binder to distribue a digital "conference package" that includes the conference 
-            schedule, network of conference goers, and other real-time notifications. When a conference goers opens up Binder,
-            he or she can select the conference and add it to his or her "binders". Thus, each conference or lecture is 
-            a "binder" inside our app.
-          %div.section-text
-            Shefali and I collaborated to create the following mockups which demostrate real-time media capture
-            presentation syncing, several note-taking and annotation modes, and robust social features.
-            I used Marvel to prototype the experience. Just click anywhere on the screen 
-            and a blue field will indicate where the clickable area is.
-
-          <iframe class="marvel" src="https://marvelapp.com/ga1g8j?emb=1" width="500" height="600" allowTransparency="true" frameborder="0"></iframe>
+            %img.img-responsive.section-pic(src="img/launch.jpg")
+            %div.img-caption
+              Crowded Launch Festival conference in San Francisco
             
-          %div.section-title
-            Personalize Conference Schedule
-          %div.section-text
-            Conference schedule is automatically loaded onto binder. User can add upcoming talks to his or her
-            personal schedule and get reminders when they are about to happen.
-          %img.img-responsive.section-pic.binder-pic(src="img/binder/2.jpg")
-          
-          %div.section-title
-            Real-time Media Capture
-          %div.section-text
-            With wifi location syncing, Binder knows when a user is attending a talk and automatically displays the
-            note-taking page that includes a live video stream of the talk. When users hear something interesting during the 
-            talk, they can take a short clip of the live stream. Other real-time media features include a live chat
-            correlated with the live stream video and visualization of when more or less people are engaged during the talk.
-          %img.img-responsive.section-pic.binder-pic(src="img/binder/3.jpg")
+            %div.section-subtitle
+              Demo
+            %div.recognition
+              Conferences can use Binder to distribue a digital "conference package" that includes the conference 
+              schedule, network of conference goers, and other real-time notifications. When conference goers opens up Binder,
+              he or she can select the conference and add it to his or her "binders". Thus, each conference or lecture is 
+              a "binder" inside our app.
+            %div.section-text
+              I collaborated with Shefani to create the following mockups which demostrate real-time media capture
+              presentation syncing, several note-taking and annotation modes, and robust social features.
+              I used Marvel to prototype the experience. Just click anywhere on the screen 
+              and a blue field will indicate where the clickable area is.
 
-          %div.section-title
-            Visual Information Display
-          %div.section-text
-            Display all notes, pictures video clips from the conference as well those from outside research on one board.
-            Each piece of information is resizable and rearrangable. Organize it the way you want!
-          %img.img-responsive.section-pic.binder-pic(src="img/binder/5.jpg")
+            <iframe class="marvel" src="https://marvelapp.com/ga1g8j?emb=1" width="500" height="600" allowTransparency="true" frameborder="0"></iframe>
+            
+            %div.section-subtitle
+              Features
+            %div.section-title
+              Personalize Conference Schedule
+            %div.section-text
+              Conference schedule is automatically loaded onto binder. User can add upcoming talks to his or her
+              personal schedule and get reminders when they are about to happen.
+            %img.img-responsive.section-pic.binder-pic(src="img/binder/2.jpg")
+            
+            %div.section-title
+              Real-time Media Capture
+            %div.section-text
+              With wifi location syncing, Binder knows when a user is attending a talk and automatically displays the
+              note-taking page that includes a live video stream of the talk. When users hear something interesting during the 
+              talk, they can take a short clip of the live stream. Other real-time media features include a live chat
+              correlated with the live stream video and visualization of when more or less people are engaged during the talk.
+            %img.img-responsive.section-pic.binder-pic(src="img/binder/3.jpg")
 
-          %div.section-title
-            Lessons Learned 
-          %div.section-text
-            This was one of my first app designs where I engaged the entire design process, focusing on user research and
-            iteration testing to define and constantly adjust our approach to create a truely different
-            "second-screen" interaction.
-          %div.section-text
-            I was able to delve into the design process with Binder and learned value skills in interviewing users and
-            analyzing user research, to list assumptions and address each one. If we didn't do so much research 
-            to understand our assumptions, we would have pigeon-holed ourselves in 
-            creating a TV show companion app 
-            Special thanks to Tony Sokolowski, VP of Design at Vertigo, who challenged us with the prompt and worked with 
-            us throughout the design process and giving us tips and suggestions on storyboarding and user testing.
-          %div.section-text
-            Read about the process
-            %a(target="_blank" href="https://www.behance.net/gallery/13336431/Binder-A-Second-Screen-Tablet-Application")
-              here.
-          %div.section-text.section-last
-            Read the Vertigo
-            %a(target="_blank" href="http://thewire.vertigo.com/2013/congrats-to-our-team-vertigo-and-uc-berkeley-innovation-group/")
-              article
-            about the project.
+            %div.section-title
+              Visual Information Display
+            %div.section-text
+              Display all notes, pictures video clips from the conference as well those from outside research on one board.
+              Each piece of information is resizable and rearrangable. Organize it the way you want!
+            %img.img-responsive.section-pic.binder-pic(src="img/binder/5.jpg")
+
+            %div.section-subtitle
+              Lessons Learned 
+            %div.recognition
+              This was one of my first app designs where I engaged the entire design process, focusing on user research and
+              iteration testing to define and constantly adjust our approach to create a truely different
+              "second-screen" interaction.
+            %div.section-text
+              I was able to delve into the design process with Binder and learned value skills in interviewing users and
+              analyzing user research, to list assumptions and address each one. If we didn't do so much research 
+              to understand our assumptions, we would have pigeon-holed ourselves in 
+              creating a TV show companion app 
+              Special thanks to Tony Sokolowski, VP of Design at Vertigo, who challenged us with the prompt and worked with 
+              us throughout the design process and giving us tips and suggestions on storyboarding and user testing.
+            %div.section-subtitle
+              Team
+            %div.recognition
+              Binder is a Fall 2013 team project within Berkeley Innovation, UC Berkeley's human-centered 
+              design organization, to create Binder. Team members include Vandana Pai, Shefali Netke,
+              Jason Gee, and myself. We had the opportunity to work with design consulting firm,  
+              Vertigo Software, Inc., to create a modern second-screen tablet application. 
+              Throughout our process, we focused on user research, multiple iterations 
+              of wireframes and prototypes, and concept generation. 
+      
+            %img.img-responsive.section-pic(src="img/binder_team.jpg")
+            %div.img-caption
+              Binder team with Tony Sokolowski, VP of Design at Vertigo, who worked with us throughout the project
+            %div.section-text
+              Read the 
+              %a(target="_blank" href="http://thewire.vertigo.com/2013/congrats-to-our-team-vertigo-and-uc-berkeley-innovation-group/")
+                Vertigo article
+              about the project.
+            %div.section-text.section-last
+              %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+                %div.section-text.link-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
    
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")

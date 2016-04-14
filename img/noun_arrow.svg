@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="320px" height="480px" viewBox="0 0 320 480" enable-background="new 0 0 320 480" xml:space="preserve">
+<g>
+	<rect x="-614.4" y="40" width="592" height="316.8"/>
+	<rect y="-75.2" width="320" height="96"/>
+	<text transform="matrix(1 0 0 1 211.1992 -22.4004)" font-family="'Helvetica'" font-size="7.68">http://thenounproject.com</text>
+	<text transform="matrix(1 0 0 1 22.9316 -38.4004)" font-family="'Helvetica-Bold'" font-size="19.705">The Noun Project</text>
+	<text transform="matrix(1 0 0 1 26.5156 -23.041)" font-family="'Helvetica-Bold'" font-size="12.8">Icon Template</text>
+	<text transform="matrix(1 0 0 1 -571.1992 73.5996)" font-family="'Helvetica-Bold'" font-size="19.705">Reminders</text>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="25.6" y1="-6.4" x2="57.6" y2="-6.4"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="-572.8" y1="92.8" x2="-518.4" y2="92.8"/>
+	<g>
+		<g>
+			<g>
+				<rect x="-546.566" y="140.218" width="27.907" height="27.654"/>
+				<path d="M-526.256,175.398h15.19v-15.05h-15.19V175.398z M-509.651,176.797h-18.016v-17.853h18.016V176.797L-509.651,176.797z
+					 M-531.907,180.999h26.493v-26.25h-26.493V180.999L-531.907,180.999z M-504,182.4h-29.322v-29.053H-504V182.4L-504,182.4z"/>
+				<polygon points="-531.677,181.226 -532.134,180.771 -505.642,154.519 -505.188,154.973 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="-572.8" y="225.6" fill="none" width="112" height="104"/>
+	<text transform="matrix(1 0 0 1 -572.8008 232.5039)" font-family="'Helvetica-Bold'" font-size="9.6">Strokes</text>
+	<text transform="matrix(1 0 0 1 -572.8008 248.5039)" font-family="'Helvetica'" font-size="7.68">Try to keep strokes at 4px</text>
+	<text transform="matrix(1 0 0 1 -572.8008 264.5039)" font-family="'Helvetica'" font-size="7.68">Minimum stroke weight is 2px</text>
+	<text transform="matrix(1 0 0 1 -572.8008 278.9023)" font-family="'Helvetica'" font-size="7.68">For thicker strokes use even </text>
+	<text transform="matrix(1 0 0 1 -572.8008 288.5039)" font-family="'Helvetica'" font-size="7.68">numbers: 6px, 8px etc.</text>
+	<text transform="matrix(1 0 0 1 -572.8008 302.9023)" font-family="'Helvetica-Bold'" font-size="7.68">Remember to expand strokes </text>
+	<text transform="matrix(1 0 0 1 -572.8008 312.5039)" font-family="'Helvetica-Bold'" font-size="7.68">before saving as an SVG </text>
+	<rect x="-436.8" y="225.6" fill="none" width="112" height="104"/>
+	<text transform="matrix(1 0 0 1 -436.8008 232.5039)" font-family="'Helvetica-Bold'" font-size="9.6">Size</text>
+	<text transform="matrix(1 0 0 1 -436.8008 248.5039)" font-family="'Helvetica'" font-size="7.68">Cannot be wider or taller than </text>
+	<text transform="matrix(1 0 0 1 -436.8008 259.7031)" font-family="'Helvetica'" font-size="7.68">100px (artboard size)</text>
+	<text transform="matrix(1 0 0 1 -436.8008 275.7031)" font-family="'Helvetica'" font-size="7.68">Scale your icon to fill as much of </text>
+	<text transform="matrix(1 0 0 1 -436.8008 285.3027)" font-family="'Helvetica'" font-size="7.68">the artboard as possible</text>
+	<rect x="-300.8" y="225.6" fill="none" width="112" height="104"/>
+	<text transform="matrix(1 0 0 1 -300.8008 232.5039)" font-family="'Helvetica-Bold'" font-size="9.6">Ungroup</text>
+	<text transform="matrix(1 0 0 1 -300.8008 248.5039)" font-family="'Helvetica'" font-size="7.68">If your design has more than one </text>
+	<text transform="matrix(1 0 0 1 -300.8008 258.1035)" font-family="'Helvetica'" font-size="7.68">shape, make sure to ungroup</text>
+	<rect x="-160" y="225.6" fill="none" width="112" height="104"/>
+	<text transform="matrix(1 0 0 1 -160 232.5039)" font-family="'Helvetica-Bold'" font-size="9.6">Save as</text>
+	<text transform="matrix(1 0 0 1 -160 248.5039)" font-family="'Helvetica'" font-size="7.68">Save as .SVG and make sure </text>
+	<text transform="matrix(1 0 0 1 -160 258.1035)" font-family="'Helvetica'" font-size="7.68">“Use Artboards” is checked</text>
+	<text transform="matrix(1.0074 0 0 1 -401.7344 137.8984)" font-family="'Helvetica'" font-size="8.2339">100px</text>
+	<text transform="matrix(1.0074 0 0 1 -131.2012 164.8008)" font-family="'Helvetica-Bold'" font-size="16.4678">.SVG</text>
+	<rect x="-404.845" y="151.408" width="32.835" height="32.592"/>
+	<rect x="-404.727" y="141.651" width="1.67" height="7.478"/>
+	<rect x="-373.798" y="141.651" width="1.673" height="7.478"/>
+	<rect x="-406.4" y="143.479" width="35.945" height="1.83"/>
+	<g>
+		<rect x="-268.176" y="148.301" width="32.976" height="32.499"/>
+		<rect x="-245.789" y="131.862" width="10.586" height="10.436"/>
+	</g>
+	<rect x="-571.2" y="112" stroke="#FFFFFF" stroke-miterlimit="10" width="96" height="96"/>
+	<rect x="-436.8" y="112" stroke="#FFFFFF" stroke-miterlimit="10" width="96" height="96"/>
+	<rect x="-299.2" y="112" stroke="#FFFFFF" stroke-miterlimit="10" width="96" height="96"/>
+	<rect x="-158.4" y="112" stroke="#FFFFFF" stroke-miterlimit="10" width="96" height="96"/>
+</g>
+<g>
+	<path d="M158.973,73.146c-69.494,0-125.827,56.333-125.827,125.831C33.143,268.471,89.475,324.8,158.973,324.8
+		c69.494,0,125.827-56.329,125.827-125.824C284.8,129.479,228.467,73.146,158.973,73.146z M193.331,198.634l-1.155,0.947
+		l-49.577,60.595l-8.727-7.136l44.7-54.64l-44.7-54.633l8.727-7.14l49.577,60.596l1.155,0.947l-0.192,0.234L193.331,198.634z"/>
+</g>
+<text transform="matrix(1 0 0 1 -331 392)" font-family="'HelveticaNeue-Bold'" font-size="16">Created by Darren Northcott</text>
+<text transform="matrix(1 0 0 1 -331 408)" font-family="'HelveticaNeue-Bold'" font-size="16">from the Noun Project</text>
+</svg>

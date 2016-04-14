@@ -1,4 +1,4 @@
-all: index.html about.html skrt.html yumi.html yumi-process.html binder.html classlink.html classlink-process.html picknic.html picknic-process.html via.html berkeleycribs.html projects.html
+all: index.html about.html skrt.html yumi.html yumi-process.html binder.html classlink.html classlink-process.html picknic.html picknic-process.html via.html berkeleycribs.html approach.html
 
 %.html: %.html.haml
 	haml $< $@

@@ -22,44 +22,66 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     %body
-
-    %body
-    %div.project-page
-      %nav.navbar.navbar-default.container
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          / Collect the nav links, forms, and other content for toggling
-        %a.navbar-brand(href="index.html")
-          %img.img-responsive.logo(src="img/logo.svg")
-        %div.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li.pressed
-              %a(href="projects.html")
-                PROJECTS
-            %li
-              %a(href="http://helloandi.tumblr.com/") 
-                BLOG
-            %li
-              %a(href="about.html") 
-                ABOUT
-
-      %img.img-responsive.cover-pic(src="img/via_cover.jpg")
+      %div.project-page
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+        %div.container
+          %div.row
+            %div.col-xs-12.col-md-6
+              %div.heading
+                VIA XSEL
+              %img.line(src="img/line_black.svg")
+              %div.subhead.black-text
+                Program Marketing Material
+              %div.section-text.work-overview.black-text
+                Some flier and infographic designs I did for my Summer 2014 internship at Stanford University's VIA XSEL.
+                VIA stands for Volunteers in Asia and XSEL stands for Exchange for Social Entrepreneurs
+                and Leaders. I was a design coordinator for the 3 week program where mostly college students 
+                and some young professionals from all over Asia stayed in the dorms and 
+                learned about design thinking and applied that to creating a social enterprise
+                final team project. They identified a social problem and worked in groups to solve it and 
+                present it.
+            %div.col-xs-12.col-md-6.work-link.work-overview
+              // %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+              //   %div.section-text
+              //     %span.button
+              //       SEE PROCESS
+              //     %span.glyphicon.glyphicon-circle-arrow-right    
+          %img.img-responsive.work-pic(src="img/via_cover.jpg")
+      
         %div.container.project-content
-          %div.section-title
-            VIA Marketing Material
-          %div.section-text
-            Some flier and infographic designs I did for my Summer 2014 internship at Stanford University's VIA XSEL.
-            VIA stands for Volunteers in Asia and XSEL stands for Exchange for Social Entrepreneurs
-            and Leaders. I was a design coordinator for the 3 week program where mostly college students 
-            and some young professionals from all over Asia stayed in the dorms and 
-            learned about design thinking and applied that to creating a social enterprise
-            final team project. They identified a social problem and worked in groups to solve it and 
-            present it.
+          
+          // %div.section-text
+          //   Some flier and infographic designs I did for my Summer 2014 internship at Stanford University's VIA XSEL.
+          //   VIA stands for Volunteers in Asia and XSEL stands for Exchange for Social Entrepreneurs
+          //   and Leaders. I was a design coordinator for the 3 week program where mostly college students 
+          //   and some young professionals from all over Asia stayed in the dorms and 
+          //   learned about design thinking and applied that to creating a social enterprise
+          //   final team project. They identified a social problem and worked in groups to solve it and 
+          //   present it.
           
           %img.img-responsive.section-pic(src="img/via_pic.jpg")
           %div.img-caption
@@ -78,11 +100,36 @@
 
           %div.section-title
             VIA Program Booklet
-          %div.section-text.section-last
+          %div.section-text.last-row
             I also designed the layout and content for the 
             %a(href="img/viabooklet.pdf")
               program booklet.
-
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
    
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")

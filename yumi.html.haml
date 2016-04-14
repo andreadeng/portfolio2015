@@ -22,90 +22,122 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     
     %body
+      %div.project-page
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+        %div.container
+          %div.row
+            %div.col-xs-12.col-md-6
+              %div.heading
+                YUMI
+              %img.line(src="img/line_black.svg")
+              %div.subhead.black-text
+                Eat together.
+              %div.section-text.work-overview.black-text
+                YUMI is a mobile app that helps you find someone nearby to eat with instantaneously. It’s 2pm and you want to grab a quick lunch with someone before you 3pm meeting. You don’t have time to ask your colleagues or message your friends to see if they’re free. Using YUMI, you find someone to eat within a 3 minute walk, with the tap of a button.
 
-    %body
-    %div.project-page
-      %nav.navbar.navbar-default.container
-        / Brand and toggle get grouped for better mobile display
-        .navbar-header
-          %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
-            %span.sr-only Toggle navigation
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          / Collect the nav links, forms, and other content for toggling
-        %a.navbar-brand(href="index.html")
-          %img.img-responsive.logo(src="img/logo.svg")
-        %div.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right
-            %li.pressed
-              %a(href="projects.html")
-                PROJECTS
-            %li
-              %a(href="http://helloandi.tumblr.com/") 
-                BLOG
-            %li
-              %a(href="about.html") 
-                ABOUT
-
-      %img.img-responsive.cover-pic(src="img/yumi_cover.jpg")
-        %div.container.project-content
-          %div.section-text
-            Read about the process
-            %a(href="yumi-process.html")
-              here.
-          // %div.section-title
-          //   YUMI Team
-          // %img.img-responsive.section-pic(src="img/yumi_team.png")
-          %div.section-title
-            YUMI Mobile App
-          %div.section-text
-            Helps you find someone to eat with near you, instantaneously.
-          %img.img-responsive.section-pic(src="img/eat_together.jpg")
-          %div.img-caption
-            Eat together, eat better, be happier
-          %div.section-title
-            Features
-
-          %div.section-title
-            Streamlined Process
-          %div.section-text
-            Quickly find someone to eat with
-          <iframe class="marvel-iphone" src="https://marvelapp.com/17af897?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
+            %div.col-xs-12.col-md-6.work-link.work-overview
+              %a(target="_blank" href="yumi-process.html") 
+                %div.section-text
+                  SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right    
+          %img.img-responsive.work-pic(src="img/yumi_promo.jpg")
           
-          %div.section-title
-            Customizable 
-          %div.section-text
-            Customize the max distance you can travel for a meal, add languages you speak, and add preferred friends or
-            groups that rank higher when YUMI searches a platemate for you. Edit your profile to reflect the foods you love
-            and your interests!
-          <iframe class="marvel-iphone" src="https://marvelapp.com/17afhh0?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
-          
-          %div.section-title
-            Future Plans
-          %div.section-text
-            We pitched YUMI to a panel of VC's at the end of the Fall 2015 semester and 
-            we're well received. We are currently in the process
-            of developing this app. We recently decided to gamify YUMI and are working on
-            enriching that experience as we test it out with uses. We are hoping to launch a
-            downloadable MVP by March 2016.
+            %div.project-content
+              %div.section-text
+                Many existing apps foster online interactions such as social media and messaging apps. A growing number of apps also lead to offline interactions such as the dating app Tinder and transportation network Uber. YUMI aims to cultivate organic offline human interactions by redefining the process of meeting up with people to be simple, easy, and relaxed. YUMI does this by bringing people together through food, an amazing conversation starter.
+              %div.section-subtitle
+                Features
 
-          %div.section-title
-            Lessons Learned 
-          %div.section-text
-            I learned about the business side of product development and how the design process fits into
-            the overall product development process. I had to adapt the design of YUMI
-            to our business model. We planned to monetize with native ads within the app and a 
-            subscription model free of ads and unlocked features for subscribed users. Unlocked features included
-            more searches for a platemate, preferred friends list, and groups list. The challenge was 
-            add these benefits without compensating the core product of YUMI which was finding someone to eat with
-            instantaneously.
-      
-          %div.section-text.section-last
-            Read about the process
-            %a(href="yumi-process.html")
-              here.
-   
+              %div.section-title
+                Streamlined Process
+              %div.section-text
+                Quickly find someone to eat with.
+              <iframe class="marvel-iphone" src="https://marvelapp.com/17af897?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
+              
+              %div.section-title
+                Customizable 
+              %div.section-text
+                Customize the max distance you can travel for a meal, add languages you speak, and add preferred friends or
+                groups that rank higher when YUMI searches a platemate for you. Edit your profile to reflect the foods you love
+                and your interests!
+              <iframe class="marvel-iphone" src="https://marvelapp.com/17afhh0?emb=1" width="400" height="580" allowTransparency="true" frameborder="0"></iframe>
+              
+              // %div.section-title
+              //   Future Plans
+              // %div.section-text
+              //   We pitched YUMI to a panel of VC's at the end of the Fall 2015 semester and 
+              //   we're well received. We are currently in the process
+              //   of developing this app. We recently decided to gamify YUMI and are working on
+              //   enriching that experience as we test it out with uses. We are hoping to launch a
+              //   downloadable MVP by March 2016.
+
+              // %div.section-title
+              //   Lessons Learned 
+              // %div.section-text
+              //   I learned about the business side of product development and how the design process fits into
+              //   the overall product development process. I had to adapt the design of YUMI
+              //   to our business model. We planned to monetize with native ads within the app and a 
+              //   subscription model free of ads and unlocked features for subscribed users. Unlocked features included
+              //   more searches for a platemate, preferred friends list, and groups list. The challenge was 
+              //   add these benefits without compensating the core product of YUMI which was finding someone to eat with
+              //   instantaneously.
+              %div.recognition.section-last
+                %a(target="_blank" href="yumi-process.html") 
+                  %div.section-text.link-text
+                    %span.button
+                      SEE PROCESS
+                    %span.glyphicon.glyphicon-circle-arrow-right
+            
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     / Include all compiled plugins (below), or include individual files as needed

@@ -5,7 +5,7 @@ body {
 	font-family: 'Cantarell', sans-serif;*/
 /*	font-family: 'Ubuntu Condensed', sans-serif; */
 	font-family: 'Lato', sans-serif;
-
+	text-align: left;
 }
 
 .container {
@@ -54,11 +54,13 @@ nav.navbar.navbar-default.container a.navbar-brand {
 
 .logo {
 	margin-top: -30px;
+	width: 2.5em;
+	margin-left: -0.4em;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
-/* 	color: #E6E6E6 !Important; */
-}
+/* 	color: rgb(83, 75, 75) !Important; 
+*/}
 
 .title {
 	background-image: url(../img/whee.jpg);
@@ -89,8 +91,9 @@ nav.navbar.navbar-default.container a.navbar-brand {
 }
 
 .line {
-	margin-top: -20px;
-	margin-bottom: -10px;
+	margin-top: 1.5em;
+	margin-bottom: -1.3em;
+
 }
 
 .about {
@@ -128,6 +131,8 @@ nav.navbar.navbar-default.container a.navbar-brand {
 
 .row {
 	margin-top: 1em;
+	position: relative;
+
 }
 
 a {
@@ -147,6 +152,7 @@ a:after {
 	overflow: hidden;
 	position: relative;
 	padding:0;
+	height: 25em;
 }
 
 .picture {
@@ -161,7 +167,7 @@ a:after {
 	position: absolute;
 	z-index: 1;
 	transition: opacity 0.5s;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.6);
 	/*background-color: rgba(255, 106, 106, 0.3);	*/
 /*	background-color: rgba(255, 255, 255, 0.3);
 *//*	background-color: rgba(240, 128, 128, 0.5);	*/
@@ -175,7 +181,6 @@ a:after {
 }
 
 .wrapper:hover .picture{
-	transform: scale(1.1);
 }
 
 .caption_text {
@@ -231,12 +236,12 @@ a:after {
 	width: 100%;
 }
 .project-content {
-	margin-top: 2em;
+	margin-top: 8em;
 	width: 700px;
 	margin: 0 auto;
 	color: rgb(83, 75, 75);
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 }
 
 .cover-pic {
@@ -249,13 +254,27 @@ a:after {
 }
 
 .section-title {
-	font-weight: 600;
-	margin-top: 2em;
+	font-weight: 800;
+	margin-top: 3em;
 	font-size: 18px;
+	margin-bottom: -1em;
+}
+
+.recognition {
+	margin-top: 3em;
+	margin-bottom: em;
+}
+
+.section-subtitle {
+	font-weight: 800;
+	margin-top: 3em;
+	font-size: 1.3em;
+	margin-bottom: -1em;
+	text-align: center;
 }
 
 .section-text {
-	margin-top: 1em;
+	margin-top: 1.5em;
 }
 
 .section-pic {
@@ -299,7 +318,7 @@ a:after {
 /* Work */
 
 .last-row {
-	margin-bottom: 4em;
+	margin-bottom: 6em;
 }
 
 /* Marvel */
@@ -326,3 +345,144 @@ a:after {
 	width: 45em;
 	display: inline;
 }
+
+/* About */
+
+.profile {
+	margin-top: 4.2em;
+}
+
+.about-para {
+	margin-top: 2em;
+}
+/* Type Formatting */
+.heading {
+	font-size: 4em;
+	margin-top: 1.5em;
+	line-height: 1.3em;
+	text-align: left;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+
+}
+
+.subhead {
+	font-size: 1.7em;
+	letter-spacing: 0.02em;
+}
+
+.spaced {
+	padding-left: 0.2em;
+}
+
+.smaller-text {
+	padding-top: 2em;
+}
+
+.work-overview {
+	padding-top: 1.5em;
+	margin: 0 auto;
+	color: rgb(83, 75, 75);
+	font-size: 18px;
+	line-height: 26px;
+	width: 700px;
+}
+
+.work-title {
+	font-size: 4em;
+	line-height: 1.3em;
+	text-align: left;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	margin-top: em;
+}
+
+.work-link {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.goleft {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+.work-pic {
+	margin-top: 5.8em;
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.work-icon {
+	width: 5em;
+}
+
+.glyphicon-circle-arrow-right:before {
+  margin-left: 0.2em;
+  width: 1em;
+ }
+
+.glyphicon-circle-arrow-left:before {
+  margin-right: 0.2em;
+  width: 1em;
+ }
+
+ .glyphicon-arrow-right:before {
+  margin-right: 0.2em;
+  width: 1em;
+ }
+
+.work-link a {
+ 	color: black;
+ }
+
+ .goleft a {
+ 	color: black;
+ }
+
+.bottom-link {
+	text-align: right;
+	font-size: 18px;
+	margin-top: -4em;
+}
+ .last-row a {
+ /*	color: black;*/
+ }
+
+ .link-text {
+ 	text-align: right;
+ }
+
+ .black-text {
+ 	color: black !Important;
+ }
+
+ .section-last a {
+ 	color: black !Important;
+ }
+
+.button {
+	background-color: ;
+	padding: 1px;
+	padding-left: ;
+}
+
+/* Footer */
+
+.footer {
+	height: 14em;
+	background-color: #8E8E8E;
+}
+
+
+
+
+
+
+
+
+

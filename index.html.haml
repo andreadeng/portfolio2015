@@ -22,9 +22,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
   
   %body
-
-  %body
-    %div.title
+    %div
       %nav.navbar.navbar-default.container
         / Brand and toggle get grouped for better mobile display
         .navbar-header
@@ -37,115 +35,91 @@
         %a.navbar-brand(href="index.html")
           %img.img-responsive.logo(src="img/logo.svg")
         %div.collapse.navbar-collapse
-          %ul.nav.navbar-nav.navbar-right.home
+          %ul.nav.navbar-nav.navbar-right
             %li.pressed
-              %a(href="projects.html")
-                PROJECTS
+              %a(href="index.html")
+                WORK
             %li
-              %a(href="http://helloandi.tumblr.com/") 
-                BLOG
+              %a(href="approach.html") 
+                APPROACH
             %li
               %a(href="about.html") 
                 ABOUT
-      %div.head  
-        %p.name
-          ANDREA
-        %p.name
-          DENG
-        %img.line(src="img/line.svg")
-        %p.position
-          UX & UI DESIGNER
-
-    // %div.container.about
-    //   %p.heading
-    //     About Me
-    //   %p.heading.me
-    //     About Me
-    //   %img.line(src="img/line_black.svg")
-    %div.container.work
-      // %div.row.row
-      //   %div.col-xs-12.col-md-6
-      //     %a.thumb(href="skrt.html")
-      //       %div.wrapper
-      //         %img.img-responsive.picture(src="img/closeside.jpg")
-      //         %div.caption
-      //           %p.caption_text
-      //             SKRT
-      //           %p.caption_sub 
-      //             Digital Fabrication
+            %li
+              %a(href="http://helloandi.tumblr.com/") 
+                BLOG
             
-      //   %div.col-xs-12.col-md-6
-      //     %a.thumb(href="yumi.html")
-      //       %div.wrapper
-      //         %img.img-responsive.picture(src="img/yumi_iphone.jpg")
-      //         %div.caption
-      //           %p.caption_text
-      //             SKRT
-      //           %p.caption_sub 
-      //             Digital Fabrication
-
-      %div.row.last-row
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="skrt.html")
-            %div.wrapper
-              %img.img-responsive.picture(src="img/closeside.jpg")
-              %div.caption
-                %p.caption_text
-                %p.caption_sub 
-                  SKRT
-                %p.caption_sub_small
-                  Wearable
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="yumi.html")
-            %div.wrapper
-              %img.img-responsive.picture(src="img/yumi_iphone.jpg")
-              %div.caption
-                %p.caption_text
-                %p.caption_sub 
-                  YUMI
-                %p.caption_sub_small
-                  App
-        %div.col-xs-8.col-md-4
-          %a.thumb(href="binder.html")
-            %div.wrapper
-              %img.img-responsive.picture(src="img/binder_work.jpg")
-              %div.caption
-                %p.caption_text
-                %p.caption_sub 
-                  BINDER
-                %p.caption_sub_small 
-                  App
-      // %div.row.last-row
-      //   %div.col-xs-8.col-md-4
-      //     %a.thumb(href="classlink.html")
-      //       %div.wrapper
-      //         %img.img-responsive.picture(src="img/classlink-work.jpg")
-      //         %div.caption
-      //           %p.caption_text
-      //           %p.caption_sub 
-      //             Classlink
-      //           %p.caption_sub_small
-      //             Webpage
-      //   %div.col-xs-8.col-md-4
-      //     %a.thumb(href="picknic.html")
-      //       %div.wrapper
-      //         %img.img-responsive.picture(src="img/picknic_work.jpg")
-      //         %div.caption
-      //           %p.caption_text
-      //           %p.caption_sub 
-      //             Picknic
-      //           %p.caption_sub_small
-      //             App
-      //   %div.col-xs-8.col-md-4
-      //     %a.thumb(href="via.html")
-      //       %div.wrapper
-      //         %img.img-responsive.picture(src="img/via_work.jpg")
-      //         %div.caption
-      //           %p.caption_text
-      //           %p.caption_sub 
-      //             VIA
-      //           %p.caption_sub_small 
-      //             Infographics
+    %div.container
+      %div.heading
+        ELEGANCE, <span class="spaced">EMOTION</span>,  <span class="spaced">&</span>
+        UNDERSTANDING.
+      %img.line(src="img/line_black.svg")
+      %div.subhead.black-text
+        Hi, I'm Andrea and I create unique solutions <br> and delightful experiences.
+      %div.work
+        %div.row
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="skrt.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/closeside.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    SKRT
+                  %p.caption_sub_small
+                    Wearable
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="yumi.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/yumi_iphone.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    YUMI
+                  %p.caption_sub_small
+                    App
+        %div.row.row
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="binder.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/binder_work.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    BINDER
+                  %p.caption_sub_small 
+                    App
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="classlink.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/classlink-work.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    Classlink
+                  %p.caption_sub_small
+                    Webpage
+        %div.row.last-row
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="picknic.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/picknic_work.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    Picknic
+                  %p.caption_sub_small
+                    App
+          %div.col-xs-12.col-md-6
+            %a.thumb(href="via.html")
+              %div.wrapper
+                %img.img-responsive.picture(src="img/via_work.jpg")
+                %div.caption
+                  %p.caption_text
+                  %p.caption_sub 
+                    VIA
+                  %p.caption_sub_small 
+                    Infographics
    
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
