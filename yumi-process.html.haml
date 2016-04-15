@@ -22,7 +22,6 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     
     %body
-    
       %div.project-page
         %nav.navbar.navbar-default.container
           / Brand and toggle get grouped for better mobile display
@@ -49,21 +48,30 @@
               %li
                 %a(href="http://helloandi.tumblr.com/") 
                   BLOG
-      %img.img-responsive.cover-pic(src="img/yumi_process-cover.jpg")
-        %div.container.project-content
+      %div.container
+        %div.row
+          %div.col-xs-12.col-md-6
+            %div.heading
+              YUMI PROCESS
+            %img.line(src="img/line_black.svg")
+            %div.subhead.black-text
+              Problem
+            %div.section-text.work-overview.black-text
+              No easy way exists to find someone to eat with. You don’t know people’s 
+              availabilities. It's inconvenient to individually message people.
+              and awkward to ask strangers.
 
-          %div.section-text
-            Go to the Yumi features page
-            %a(href="yumi.html")
-              here.
+          %div.col-xs-12.col-md-6.work-link.work-overview
+            %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+              %div.section-text
+                %span.button
+                  PRODUCT PAGE
+                %span.glyphicon.glyphicon-circle-arrow-right    
+        %img.img-responsive.work-pic(src="img/yumi_process-cover.jpg")
+          
 
-          %div.section-title
-            Problem
-          %div.section-text
-            No easy way exists to find someone to eat with. You don’t know people’s 
-            availabilities. It's inconvenient to individually message people.
-            and awkward to ask strangers.
-   
+        %div.project-content
+
           %div.section-title
             Market Research
           %div.section-text
@@ -159,11 +167,39 @@
             believer in using the design process, I steered our product development process to heavily rely on 
             user research and other design principles.
           
-          %div.section-text.section-last
-            Go to the Yumi features page
-            %a(href="yumi.html")
-              here.
-   
+          %div.recognition.section-last
+            %a(target="_blank" href="yumi-process.html") 
+              %div.section-text.link-text
+                %span.button
+                  PRODUCT PAGE
+                %span.glyphicon.glyphicon-circle-arrow-right
+            
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="index.html")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="index.html")
+                  WORK
+              %li
+                %a(href="approach.html") 
+                  APPROACH
+              %li
+                %a(href="about.html") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
     / jQuery (necessary for Bootstrap's JavaScript plugins)
     %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     / Include all compiled plugins (below), or include individual files as needed
