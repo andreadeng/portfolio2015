@@ -1,0 +1,149 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(content="text/html; charset=UTF-8" http-equiv="Content-Type")/
+    %meta(charset="utf-8")/
+    %meta(content="IE=edge" http-equiv="X-UA-Compatible")/
+    %meta(content="width=device-width, initial-scale=1" name="viewport")/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %title AFX Dance
+    / Bootstrap
+    %link(href="css/bootstrap.min.css" rel="stylesheet")/
+    %link(href="css/style.css" rel="stylesheet")/
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    %link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300|Roboto+Condensed|Ubuntu+Condensed|Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css')/
+    %link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css')/
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic,100,100italic' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="favicon.png" />
+        
+    %body
+      %div.project-page
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="/")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right
+              %li.pressed
+                %a(href="/")
+                  WORK
+              %li
+                %a(href="/approach") 
+                  APPROACH
+              %li
+                %a(href="/about") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+        %div.container
+          %div.row
+            %div.col-xs-12.col-md-6
+              %div.heading
+                AFX Dance Registration
+              %img.line(src="img/line_black.svg")
+              %div.subhead.black-text
+                Webapp
+              %div.section-text.work-overview.black-text
+                AFX which stands for Aspirations, Family, eXperience is a dance organization at UC Berkeley. AFX consists of beginner and intermediate/advanced dance teams and a competition team.
+                AFX accepts everyone who auditions into their Training team (beginner level) tier. They hold auditions
+                at the beginning of each semester (usually three audition days during Fall and Spring semesters).
+                Due to the large number of auditionees (they broke 1000 auditionees last semester), it
+                was necessary to create an smooth and efficient registration app for auditions.
+
+            %div.col-xs-12.col-md-6.work-link.work-overview
+              %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+                %div.section-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right    
+          %img.img-responsive.work-pic(src="img/skrt_cover.jpg")
+          
+          %div.project-content
+            %div.section-text
+              Personal space is an invisible yet ubiquitous force that we understand as we observe a culture over time. For example, every time I take BART (the Bay Area subway), I notice that people avoid sitting next to a stranger unless the subway is crowded. In California, sitting right next to a stranger seems like a violation of personal space. 
+            %div.section-text
+              The personal bubble concept is also attacked and exaggerated by different social expectations. For example, feminists argue that women are constantly interrupted by a man’s physical presence through the spreading of their legs ("manspreading"). This physical sign of dominance, whether intentional or not, forces the woman into a smaller space. Others add that personal space is decreasing outwardly but increasing inwardly. Personal space exists internally because of the smartphone. These devices force users to not be aware of their context and only focus on matters occurring privately within the palm of their hands.
+            %img.img-responsive.section-pic(src="img/manspread.jpg")
+            %div.img-caption
+              Manspreading on public transit. Banned in NY as of January 2015.
+
+            %div.section-text
+              Our intention was to neither attack nor exaggerate the personal bubble. Instead, we created a physical 
+              bubble that not only defined the wearer’s boundaries but also intruded into others’. In doing so, we fostered conversations around physical space.
+              People discussed issues from cultural sensitivities to those of sexual harassment. Watch our product video below!
+            <iframe class="proj-video" width="655" height="374" src="https://www.youtube.com/embed/u0KeIOgSp5M" frameborder="0" allowfullscreen></iframe>
+            
+            %div.section-subtitle
+              Final Mobile Designs
+
+            %div.section-title
+              Modular Structure
+            %div.section-text
+              SKRT is made up of a belt and leaves consisting of laser cut acrylic pieces strung together by carbon fiber and fishing wire. This makes it really easy and inexpensive to add or remove pieces for customized fit and repair.
+            %img.img-responsive.section-pic(src="img/afxmobile/1.png")
+            %img.img-responsive.section-pic(src="img/afxmobile/1b.png")
+            %img.img-responsive.section-pic(src="img/afxmobile/2.png")
+            %img.img-responsive.section-pic(src="img/afxmobile/3.png")
+            %img.img-responsive.section-pic(src="img/afxmobile/4.png")
+            %img.img-responsive.section-pic(src="img/afxmobile/5.png")
+
+
+            %div.section-subtitle
+              Final Web Designs 
+            %img.img-responsive.section-pic(src="img/afxweb/1.png")
+            %img.img-responsive.section-pic(src="img/afxweb/2.png")
+            %img.img-responsive.section-pic(src="img/afxweb/3.png")
+
+            %div.recognition.section-last
+              // See process
+              // %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330")
+              //   here.
+
+              %a(target="_blank" href="https://www.hackster.io/team-skrt/skrt-e58330") 
+                %div.section-text.link-text
+                  %span.button
+                    SEE PROCESS
+                  %span.glyphicon.glyphicon-circle-arrow-right
+      %div.footer
+        %nav.navbar.navbar-default.container
+          / Brand and toggle get grouped for better mobile display
+          .navbar-header
+            %button.navbar-toggle.collapsed(aria-expanded="false" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand(href="/")
+            %img.img-responsive.logo(src="img/logo.svg")
+          %div.collapse.navbar-collapse
+            %ul.nav.navbar-nav.navbar-right.home
+              %li.pressed
+                %a(href="/")
+                  WORK
+              %li
+                %a(href="/approach") 
+                  APPROACH
+              %li
+                %a(href="/about") 
+                  ABOUT
+              %li
+                %a(href="http://helloandi.tumblr.com/") 
+                  BLOG
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
+    / Include all compiled plugins (below), or include individual files as needed
+    %script(src="js/bootstrap.min.js")
